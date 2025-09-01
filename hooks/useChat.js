@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react'
 import { generateSourdoughSchedule } from '../utils/sourdoughScheduler'
+import ScheduleDisplay from '../components/ScheduleDisplay'
 
 const INITIAL_MESSAGE = {
   type: 'bot',
