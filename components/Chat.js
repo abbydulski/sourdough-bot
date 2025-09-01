@@ -47,7 +47,7 @@ export default function Chat({ theme = 'light', setTheme }) {
   }
 
   return (
-    <div className={`w-full max-w-6xl h-[95vh] backdrop-blur-sm rounded-3xl shadow-2xl border flex flex-col overflow-hidden ${theme === 'dark' ? 'bg-stone-900/90 border-stone-800' : 'bg-white/95 border-white/20'}`}>
+    <div className={`w-full max-w-6xl h-[95vh] backdrop-blur-sm rounded-3xl shadow-2xl border flex flex-col overflow-hidden ${theme === 'dark' ? 'bg-stone-900/90 border-stone-800' : 'bg-white/95 border-white/20'} transition-colors duration-300`}>
       {/* Header */}
       <div className={`text-white p-8 relative overflow-hidden ${theme === 'dark' ? 'bg-gradient-to-br from-stone-950 via-stone-900 to-stone-800' : 'bg-gradient-to-br from-sourdough-800 via-sourdough-700 to-sourdough-600'}`}>
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent skew-y-1"></div>
