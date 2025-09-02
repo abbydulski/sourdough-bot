@@ -55,11 +55,11 @@ export default function Chat({ theme = 'light', setTheme }) {
           <div className="flex items-center justify-between mb-3">
             <div className="flex-1" />
             <div className="flex items-center justify-center gap-3">
-              <Sparkles className="text-yellow-300" size={28} />
+              <span className="text-2xl">🥖</span>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-yellow-200 to-orange-200 bg-clip-text text-transparent">
                 Sourdough Schedule Bot
               </h1>
-              <Sparkles className="text-yellow-300" size={28} />
+              <span className="text-2xl">🥖</span>
             </div>
             <div className="flex-1 flex justify-end">
               {setTheme && (

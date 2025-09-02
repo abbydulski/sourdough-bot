@@ -6,7 +6,7 @@ export default function Message({ message, isFirst, theme = 'light' }) {
       <div className={`flex items-start gap-3 max-w-[85%]`}>
         {isBot && (
           <div className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl shadow ${theme === 'dark' ? 'bg-stone-800 text-yellow-300' : 'bg-yellow-100 text-yellow-700'}`}>
-            <span className="text-sm">🤖</span>
+            <span className="text-sm">🥖</span>
           </div>
         )}
         <div

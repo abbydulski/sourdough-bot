@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-serif antialiased bg-gradient-to-br from-sourdough-100 to-sourdough-200 min-h-screen text-stone-900;
+    @apply font-sans antialiased bg-gradient-to-br from-sourdough-100 to-sourdough-200 min-h-screen text-stone-900;
   }
   .dark body {
     @apply bg-gradient-to-br from-stone-950 to-stone-900 text-stone-100;
